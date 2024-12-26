@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+<update handle="hyva_admin_grid"/>
+    <body>
+        <referenceContainer name="content">
+            <block class="Cloudways\Newmodule\Block\Newmodule" name="cloudways_newmodule" template="newmodule.phtml"></block>           
+            <block class="Hyva\Admin\Block\FrontendHyvaGrid" name="newmodule-grid"/>
+        </referenceContainer>
+    </body>
+</page>

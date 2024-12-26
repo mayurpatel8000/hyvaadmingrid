@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Thecoachsmb_Mymodule::menu" title="TheCoachSMB" translate="title" module="Thecoachsmb_Mymodule" sortOrder="10" resource="Thecoachsmb_Mymodule::menu"/>
+        <add id="Thecoachsmb_Mymodule::submenu_mymodule"
+           title="MyModule" translate="title" module="Thecoachsmb_Mymodule"
+           sortOrder="20" parent="Thecoachsmb_Mymodule::menu"
+           action="mymodule/create/index"
+           resource="Thecoachsmb_Mymodule::submenu_mymodule"
+           />
+    </menu>
+</config>
